@@ -3,8 +3,8 @@ $(function(){
     $('.header__slider').slick({
         infinite: true,
         fade: true,
-        nextArrow: '<img class="slider__arrows slider__arrows-right" src="images/arrow-right.svg" alt=""></img>',
-        prevArrow: '<img class="slider__arrows slider__arrows-left" src="images/arrow-left.svg" alt="">',
+        nextArrow: '<img class="slider__arrows slider__arrows-right" src="" alt=""></img>',
+        prevArrow: '<img class="slider__arrows slider__arrows-left" src="" alt="">',
         asNavFor: '.slider__dotshead'
     });
 
@@ -25,8 +25,8 @@ $(function(){
     $('.surf-slider').slick({ //+
         slidesToShow: 4,
         slidesToScroll: 1,
-        nextArrow: '<img class="slider__arrows slider__arrows-right" src="images/arrow-right.svg" alt=""></img>',
-        prevArrow: '<img class="slider__arrows slider__arrows-left" src="images/arrow-left.svg" alt="">',
+        nextArrow: '<img class="slider__arrows slider__arrows-right" src="" alt=""></img>',
+        prevArrow: '<img class="slider__arrows slider__arrows-left" src="" alt="">',
         asNavFor: '.slider-map',
         responsive: [
             {
